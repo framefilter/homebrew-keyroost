@@ -4,17 +4,17 @@
 class Keyroost < Formula
   desc "Program Token2 Molto2 TOTP tokens and manage FIDO2/OATH/OpenPGP/PIV security keys"
   homepage "https://github.com/framefilter/keyroost"
-  version "0.14.0"
+  version "0.15.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
-    url "https://github.com/framefilter/keyroost/releases/download/v0.14.0/keyroost-v0.14.0-macos-universal2.tar.gz"
-    sha256 "a75e96a06f9217be0225cf82a24cb6c2ece5caf89be5c9b4af47f60cc97be4c2"
+    url "https://github.com/framefilter/keyroost/releases/download/v0.15.0/keyroost-v0.15.0-macos-universal2.tar.gz"
+    sha256 "0782e708807bb2735349029408796596a880930ee7af34ad0273ac809aa9c963"
   end
 
   on_linux do
-    url "https://github.com/framefilter/keyroost/releases/download/v0.14.0/keyroost-v0.14.0-linux-x86_64.tar.gz"
-    sha256 "2a93c19b6b3b1fc47b89c5d5a7fd79e4c448907753972fca273757820d40d6a9"
+    url "https://github.com/framefilter/keyroost/releases/download/v0.15.0/keyroost-v0.15.0-linux-x86_64.tar.gz"
+    sha256 "c2fb7c7c4bfd1fc6c7cddfe474f25c13d7d6f83535ae0af25147470589c0738e"
     depends_on "pcsc-lite"
   end
 
